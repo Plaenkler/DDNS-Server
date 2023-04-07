@@ -1,0 +1,22 @@
+---
+
+name: Stale
+    
+on:
+  schedule:
+  - cron: '0 8 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+        issues: write
+        pull-requests: write
+    steps:
+      - uses: actions/stale@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: 'Stale issue please process or close'
+          stale-pr-message: 'Stale pull request process or close'
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
