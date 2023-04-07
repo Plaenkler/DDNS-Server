@@ -2,6 +2,7 @@ package handler
 
 import (
 	"fmt"
+
 	"github.com/labstack/gommon/log"
 
 	"os"
@@ -9,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benjaminbear/docker-ddns-server/dyndns/model"
 	"github.com/go-playground/validator/v10"
 	"github.com/jinzhu/gorm"
 	"github.com/labstack/echo/v4"
+	"github.com/plaenkler/ddns-server/pkg/model"
 	"github.com/tg123/go-htpasswd"
 )
 

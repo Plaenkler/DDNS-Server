@@ -1,6 +1,6 @@
-module github.com/benjaminbear/docker-ddns-server/dyndns
+module github.com/plaenkler/ddns-server
 
-go 1.18
+go 1.20
 
 require (
 	github.com/foolin/goview v0.3.0

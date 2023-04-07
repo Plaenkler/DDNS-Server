@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/benjaminbear/docker-ddns-server/dyndns/model"
 	"github.com/labstack/echo/v4"
+	"github.com/plaenkler/ddns-server/pkg/model"
 )
 
 // CreateLogEntry simply adds a log entry to the database.

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/benjaminbear/docker-ddns-server/dyndns/model"
-	"github.com/benjaminbear/docker-ddns-server/dyndns/nswrapper"
 	"github.com/jinzhu/gorm"
 	"github.com/labstack/echo/v4"
+	"github.com/plaenkler/ddns-server/pkg/model"
+	"github.com/plaenkler/ddns-server/pkg/nswrapper"
 )
 
 // ListCNames fetches all cnames from database and lists them on the website.

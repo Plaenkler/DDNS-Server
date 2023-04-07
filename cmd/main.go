@@ -1,7 +1,10 @@
 package main
 
 import (
-	"github.com/benjaminbear/docker-ddns-server/dyndns/handler"
+	"html/template"
+	"net/http"
+	"time"
+
 	"github.com/foolin/goview"
 	"github.com/foolin/goview/supports/echoview-v4"
 	"github.com/go-playground/validator/v10"
@@ -9,9 +12,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/labstack/gommon/log"
-	"html/template"
-	"net/http"
-	"time"
+	"github.com/plaenkler/ddns-server/pkg/handler"
 )
 
 func main() {
