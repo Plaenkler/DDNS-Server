@@ -1,20 +1,18 @@
-# Dynamic DNS Server for Docker with Web UI written in Go
+# 🌐 DDNS-Server
 
-![Travis build status](https://travis-ci.com/benjaminbear/docker-ddns-server.svg?branch=master)
-![Docker build status](https://img.shields.io/docker/cloud/build/bbaerthlein/docker-ddns-server)
-![Docker build automated](https://img.shields.io/docker/cloud/automated/bbaerthlein/docker-ddns-server)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Release](https://img.shields.io/badge/Calver-YY.WW.REVISION-22bfda.svg)](https://calver.org/)
+[![Linters](https://github.com/Plaenkler/DDNS-Server/actions/workflows/linters.yml/badge.svg)](https://github.com/Plaenkler/DDNS-Server/actions/workflows/linters.yml)
+[![Support me](https://img.shields.io/badge/Support%20me%20%E2%98%95-orange.svg)](https://www.buymeacoffee.com/Plaenkler)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/benjaminbear/docker-ddns-server)
-![Go version](https://img.shields.io/github/go-mod/go-version/benjaminbear/docker-ddns-server?filename=dyndns%2Fgo.mod)
-![License](https://img.shields.io/github/license/benjaminbear/docker-ddns-server)
+With DDNS-Server you can setup your own dynamic DNS server. This project is an actively maintained enhancement of [docker-ddns-server](https://github.com/benjaminbear/docker-ddns-server).
 
-With docker-ddns-server you can setup your own dynamic DNS server. This project is inspired by https://github.com/dprandzioch/docker-ddns . In addition to the original version, you can setup and maintain your dyndns entries via simple web ui.
-
-<p float="left">
-<img src="https://raw.githubusercontent.com/benjaminbear/docker-ddns-server/master/img/addhost.png" width="285">
-<img src="https://raw.githubusercontent.com/benjaminbear/docker-ddns-server/master/img/listhosts.png" width="285">
-<img src="https://raw.githubusercontent.com/benjaminbear/docker-ddns-server/master/img/listlogs.png" width="285">
-</p>
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/benjaminbear/docker-ddns-server/master/img/addhost.png" width="480"/></td>
+    <td><img src="https://raw.githubusercontent.com/benjaminbear/docker-ddns-server/master/img/listhosts.png" width="480"/></td>
+  </tr>
+</table>
 
 ## Installation
 
